@@ -8,7 +8,7 @@ This repository contains a minimal R wrapper for calling the UMAP dimension redu
 
 source(umap_wrapper.R)
 
-`##Generating fake standard normal data.`
+`## Generating fake standard normal data.`
 
 `fake.data <- cbind(rnorm(n=100), rnorm(n=100), rnorm(n=100))`
 

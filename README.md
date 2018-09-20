@@ -6,7 +6,7 @@ This repository contains a minimal R wrapper for calling the UMAP dimension redu
 
 ## Example: Reduce three column dataset to 1.
 
-source(umap_wrapper.R)
+`source(umap_wrapper.R)`
 
 `## Generating fake standard normal data.`
 

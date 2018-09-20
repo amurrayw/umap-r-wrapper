@@ -24,6 +24,6 @@ umap <- function(x, n_neighbors = 10, min_dist = 0.1,
                                n_components = n_components,
                                ...)
 
-    return(umap.obj$fit_transform(data, y = c()))
+    return(umap.obj$fit_transform(data, y = y))
 }
 

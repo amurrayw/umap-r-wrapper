@@ -17,7 +17,7 @@ umap <- function(x, n_neighbors = 10, min_dist = 0.1,
     n_neighbors <- as.integer(n_neighbors)
     n_components <- as.integer(n_components)
 
-    ## Intiallizing umap object with var. parameters.
+    ## Intializing umap object with var. parameters.
     umap.obj <- umap.main$UMAP(n_neighbors = n_neighbors,
                                min_dist = min_dist,
                                metric = metric,
